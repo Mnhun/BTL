@@ -1,0 +1,151 @@
+:root{
+    --text-color: rgb(40, 39, 41);
+    --main-color:rgb(239, 235, 243);
+    --nav-color:rgb(118, 99, 136);
+    --body-color:rgb(207, 201, 207);
+}
+.timkiem{
+    width: 60%;
+    height:2.5rem; 
+    margin:0.3em;
+}
+.form-control{
+    border-radius: 5rem; 
+}
+.hotline{
+    width: 7em;
+    height:2.3em;
+    margin-right:5.5rem;
+    display:flex;
+    font-size: 0.7rem;  
+}
+a{
+    text-decoration: none;
+    color:var(--text-color);
+    font-size: 1rem;
+}
+.phuluc{
+    display: flex;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    padding-top:2rem;
+    list-style-type: none;
+}
+footer{
+    background-color: var(--text-color);
+    color:antiquewhite;
+}
+.diachi{
+    margin: 2rem 2rem 0rem;
+    padding-bottom: 1rem;
+    font-size: 0.8rem;
+    line-height: 0.2rem;
+}
+li > a {
+    color:antiquewhite;
+}
+li > h5 {
+   padding-left: 1.1rem;   
+}
+
+body{
+    background-color:var(--body-color) ;
+}
+#logo{
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    display:block;
+    color:var(--text-color);
+    margin:0 4rem 0 1.5rem;
+    padding-bottom: 1.2rem;
+}
+button {
+    border:none;
+    background-color: rgba(0,0,0,0);
+}
+.btntk{
+    position: absolute;
+    margin:0.25em 0.15em 0.2em 46%;
+}
+#phone{
+    font-size:1.5rem;
+}
+button.hotline >ul{
+    padding:0 0.2em 0 ;
+    list-style-type: none;
+}
+#sdt{
+    font-weight: bold;
+    font-size: 1.001rem;
+}
+#card{
+    padding:0 0.7rem;
+    color:var(--text-color);
+}
+#login{
+    width:6.5em;
+    font-size:1rem;
+    border: 1px solid var(--text-color);
+    border-radius: 0.2rem;
+}
+main{
+    background-color:var(--main-color) ;
+    /* margin: 0 auto 3rem auto; */
+}
+nav{
+    background-color: var(--nav-color) !important;
+}
+header{
+    width:100%;
+    position:fixed;
+    z-index: 10;
+}
+#homeimg{
+    width:100%;
+    margin: 5rem auto 1rem auto;
+    padding: 0 5rem;
+}
+.navbar-nav{
+    display:flex;
+    flex-direction:unset;
+    justify-content: space-around;
+}
+.mb-2{
+    margin-top: 1rem;
+}
+.fruid{
+    width:80%;
+    height:70%;
+    opacity:0.7;
+}
+#myTab{
+    margin-top: 1rem ;
+}
+.row{
+    margin-bottom: 2rem ;
+}
+.card-img-top{
+    height:15rem;
+}
+.text-sale{
+    text-decoration: line-through solid;
+}
+.more{
+    display:flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+#CN{
+    width:40%;
+    margin-left:1.5rem;
+}
+#card-index{
+    color:var(--text-color);
+    background-color: var(--body-color);
+    font-size: 0.6rem;
+    padding: 0.2rem;
+}
+#carouselExampleControls{
+    margin:0;
+}
