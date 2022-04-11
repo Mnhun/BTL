@@ -37,7 +37,7 @@ a{
     color:black;
     /* margin: 5rem; */
 }
-span{
+#textStore{
     text-transform: uppercase;
     margin-bottom: 2rem;
 }
@@ -68,7 +68,7 @@ span{
 }
 @keyframes snow{
     0%{
-        transform:translate3d(0,-100%,0)}l
+        transform:translate3d(0,-100%,0)}
     100%{
         transform:translate3d(5%,100%,0)}
 }

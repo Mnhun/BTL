@@ -6,12 +6,10 @@
 }
 .tag .muiten {
     color:#4CAF50;
-    
 }
-.fa-solid.fa-arrow-right-long{
+.fa-arrow-right-long{
     margin: 1.2rem 0;
 }
-
 img {
     width: 100%;   
 }
@@ -26,17 +24,12 @@ ul {
     overflow: hidden;
     /* border: 1px solid #ffffff;
     background-color: #f3f3f3; */
-}
-      
-li {
-    float: left;
 }     
 li a {
     display: block;
     color: #666;
-    text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
+    /* margin: 0 2rem; */
 }    
 li a:hover:not(.active) {
     background-color: #ddd;
@@ -60,44 +53,13 @@ img {
 .img{
     width: 10%;
 }
-/* Định dạng header */
-/* .header {
-    background-color: #e9d8f4;
-    color: #58257b;
-    padding: 10px;
-    text-align: center;
-}  */
-  
-  /* Định dạng thanh điều hướng trên cùng */
-/* .topnav {
-    overflow: hidden;
-    background-color: #58257b;
-} */
-  
-  /* Định dạng link điều hướng */
-  /* .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  } */
-  
-  /* Thay đổi màu liên kết khi di chuột qua
-  .topnav a:hover {
-    background-color: #db7093;
-    color: white;
-    font-weight: bold
-  } */
-  
-  /* Tạo bốn cột bằng nhau, float cạnh nhau */
+/* Tạo bốn cột bằng nhau, float cạnh nhau */
 .column {
     float: left;
     width: 25%;
     padding: 25px;
 }
-  /* Bố cục linh hoạt: ba cột xếp chồng lên nhau thay vì cạnh nhau khi màn hình 
+/* Bố cục linh hoạt: ba cột xếp chồng lên nhau thay vì cạnh nhau khi màn hình 
   có chiều rộng dưới 600px */
 @media screen and (max-width:600px) {
     .column {
@@ -152,8 +114,8 @@ img {
 .fa-facebook {  
     background: #103586;  
     color: white;  
-  }  
-  .fa-twitter {  
+}  
+.fa-twitter {  
     background: #1c68a1;  
     color: white;  
 }  
