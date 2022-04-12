@@ -30,113 +30,27 @@
                             <img src="../../images/sầu riêng Ri6.png" alt="" srcset="">
                             <span class="nameFruid">Sầu riêng ri6</span>
                         </th>
-                        <th scope="col" id="price" value="145000">145.000đ/1kg</th>
+                        <th scope="col" id="price">145.000đ/1kg</th>
                         <th scope="col" id="numbers">
                             <div class="buttons_added">
                                 <input class="minus is-form" type="button" value="-">
-                                <input aria-label="quantity" class="input-qty" max="10" min="1" name="" type="number" value="1">
+                                <input aria-label="quantity" class="input-qty" max="10" min="1" name="" type="number" value="1" id="number">
                                 <input class="plus is-form" type="button" value="+">
                             </div>
                         </th>
                         <th scope="col" class="total"></th>
                         <th scope="col"><button class="btn btn-danger" onclick="deleteSP()">Xóa</button></th>
-                      </tr>
-                      <tr>
-                        <th scope="col" id="products">
-                            <input type="checkbox" name="" id="">
-                            <img src="../../images/sầu riêng Ri6.png" alt="" srcset="">
-                            <span class="nameFruid">Sầu riêng ri6</span>
-                        </th>
-                        <th scope="col" id="price" value="145000">145.000đ/1kg</th>
-                        <th scope="col" id="numbers">
-                            <div class="buttons_added">
-                                <input class="minus is-form" type="button" value="-">
-                                <input aria-label="quantity" class="input-qty" max="10" min="1" name="" type="number" value="1">
-                                <input class="plus is-form" type="button" value="+">
-                            </div>
-                        </th>
-                        <th scope="col" class="total"></th>
-                        <th scope="col"><button class="btn btn-danger" onclick="deleteSP()">Xóa</button></th>
-                      </tr>
-                      <tr>
-                        <th scope="col" id="products">
-                            <input type="checkbox" name="" id="">
-                            <img src="../../images/sầu riêng Ri6.png" alt="" srcset="">
-                            <span class="nameFruid">Sầu riêng ri6</span>
-                        </th>
-                        <th scope="col" id="price" value="145000">145.000đ/1kg</th>
-                        <th scope="col" id="numbers">
-                            <div class="buttons_added">
-                                <input class="minus is-form" type="button" value="-">
-                                <input aria-label="quantity" class="input-qty" max="10" min="1" name="" type="number" value="1">
-                                <input class="plus is-form" type="button" value="+">
-                            </div>
-                        </th>
-                        <th scope="col" class="total"></th>
-                        <th scope="col"><button class="btn btn-danger" onclick="deleteSP()">Xóa</button></th>
-                      </tr>
-                      <tr>
-                        <th scope="col" id="products">
-                            <input type="checkbox" name="" id="">
-                            <img src="../../images/sầu riêng Ri6.png" alt="" srcset="">
-                            <span class="nameFruid">Sầu riêng ri6</span>
-                        </th>
-                        <th scope="col" id="price" value="145000">145.000đ/1kg</th>
-                        <th scope="col" id="numbers">
-                            <div class="buttons_added">
-                                <input class="minus is-form" type="button" value="-">
-                                <input aria-label="quantity" class="input-qty" max="10" min="1" name="" type="number" value="1">
-                                <input class="plus is-form" type="button" value="+">
-                            </div>
-                        </th>
-                        <th scope="col" class="total"></th>
-                        <th scope="col"><button class="btn btn-danger" onclick="deleteSP()">Xóa</button></th>
-                      </tr>
-                      <tr>
-                        <th scope="col" id="products">
-                            <input type="checkbox" name="" id="">
-                            <img src="../../images/sầu riêng Ri6.png" alt="" srcset="">
-                            <span class="nameFruid">Sầu riêng ri6</span>
-                        </th>
-                        <th scope="col" id="price" value="145000">145.000đ/1kg</th>
-                        <th scope="col" id="numbers">
-                            <div class="buttons_added">
-                                <input class="minus is-form" type="button" value="-">
-                                <input aria-label="quantity" class="input-qty" max="10" min="1" name="" type="number" value="1">
-                                <input class="plus is-form" type="button" value="+">
-                            </div>
-                        </th>
-                        <th scope="col" class="total"></th>
-                        <th scope="col"><button class="btn btn-danger" onclick="deleteSP()">Xóa</button></th>
-                      </tr>
-                      <tr>
-                        <th scope="col" id="products">
-                            <input type="checkbox" name="" id="">
-                            <img src="../../images/sầu riêng Ri6.png" alt="" srcset="">
-                            <span class="nameFruid">Sầu riêng ri6</span>
-                        </th>
-                        <th scope="col" id="price" value="145000">145.000đ/1kg</th>
-                        <th scope="col" id="numbers">
-                            <div class="buttons_added">
-                                <input class="minus is-form" type="button" value="-">
-                                <input aria-label="quantity" class="input-qty" max="10" min="1" name="" type="number" value="1">
-                                <input class="plus is-form" type="button" value="+">
-                            </div>
-                        </th>
-                        <th scope="col" class="total"></th>
-                        <th scope="col"><button class="btn btn-danger" onclick="deleteSP()">Xóa</button></th>
-                      </tr>
+                    </tr>
                 </tbody>
             </table>
         </div>
+        <footer>
+            <div class="row TT">
+                <p>Tổng thanh toán (<span id="numberOfCart"></span> sản phẩm):  <span class="total"></span></p>
+                <span><button class="shopping btn-danger">Mua hàng</button></span>
+            </div>
+        </footer>
     </form>
-    <footer>
-        <div class="row ">
-            <p>Tổng thanh toán (<span id="numberOfCart"></span> sản phẩm) </p>
-            <p class="total"></p>
-            <button class="shopping">Mua hàng</button>
-        </div>
-    </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="../../js/page/cart.js"></script>
 </body>
