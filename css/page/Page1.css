@@ -59,12 +59,6 @@ img {
     width: 25%;
     padding: 25px;
 }
-/* Bố cục linh hoạt: ba cột xếp chồng lên nhau thay vì cạnh nhau khi màn hình 
-  có chiều rộng dưới 600px */
-@media screen and (max-width:600px) {
-    .column {
-    width: 100%;
-}
 /*hop tang giam so luong */
 .buttons_added {
     opacity:1;
@@ -121,4 +115,7 @@ img {
 }  
 div.row.align-items-center{
     margin: 3rem auto;
+}
+#footer {
+    background-color: black;
 }
