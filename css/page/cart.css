@@ -1,0 +1,43 @@
+
+.col{
+    margin:1rem 0;
+}
+button{
+    border-radius: 0.2rem;
+    background-color: rgba(0,0,0,0);
+    border: 1.5px solid black;
+    margin: 0 auto;
+}
+h4{
+    text-align: center;
+}
+body{
+    background-color: rgb(239, 235, 243);
+}
+#logo{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    text-decoration: none;
+    color:black;
+    /* margin: 5rem; */
+}
+h3{
+    text-transform: uppercase;
+    margin: 2rem auto;
+    text-align: center;
+}
+img{
+    width:20%;
+}
+#products{
+    width:35%;
+}
+.input-qty{
+    width:20%;
+}
+/* footer{
+    position:fixed;
+    z-index: 10;
+} */

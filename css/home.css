@@ -135,6 +135,7 @@ header{
     display:flex;
     justify-content: flex-end;
     margin-top: 1rem;
+    font-size: 1.2rem;
 }
 #CN{
     width:40%;
@@ -148,4 +149,7 @@ header{
 }
 #carouselExampleControls{
     margin:0;
+}
+h4{
+    text-transform: uppercase;
 }
