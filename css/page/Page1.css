@@ -119,3 +119,9 @@ div.row.align-items-center{
 #footer {
     background-color: black;
 }
+li.col-lg-3 >ul>li>a{
+    margin-left: 2rem;
+}
+.row{
+    margin-top: 0 !important;
+}
