@@ -1,3 +1,4 @@
+
 .row{
     display:block;
     border: 1px solid black;
@@ -24,9 +25,9 @@ h4{
 body{
     background-color: rgb(239, 235, 243);
 }
-a{
+div.col a{
     text-decoration: none;
-    color: black;
+    margin: 5rem;
 }
 #logo{
     text-transform: uppercase;
@@ -35,9 +36,8 @@ a{
     letter-spacing: 0.3rem;
     text-decoration: none;
     color:black;
-    /* margin: 5rem; */
 }
-#textStore{
+span{
     text-transform: uppercase;
     margin-bottom: 2rem;
 }
@@ -61,7 +61,7 @@ a{
 }
 .snow4{
     animation: snow 12s linear infinite;
-}lgh
+}
 .snow3{
     background-image:url("../../images/tuyet3.png");
     animation: snow 12s linear infinite;
@@ -72,10 +72,4 @@ a{
     100%{
         transform:translate3d(5%,100%,0)}
 }
-ul{
-    list-style: none;
-    display:flex;
-    justify-content: space-between;
-    padding:0;
-    width:14rem;
-}
+    
